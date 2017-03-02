@@ -70,13 +70,14 @@
             return cvs;
         },
         constructor: function() {
+            this.py = Window.py;
             this.initStage();
             this.initEvents();
             this.initMod();
         },
         initStage: function() {
             var that = this;
-            that.stage =
+            that.stage = py.d.createElement("canvas");
         },
         initEvents: function() {
             var that = this;
