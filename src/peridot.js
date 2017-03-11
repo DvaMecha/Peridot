@@ -17,7 +17,6 @@
             return peridot;
         }
     };
-
     window.py = py;
     window.Peridot = Peridot;
 })()
