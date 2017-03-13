@@ -3,7 +3,7 @@
  */
 (function() {
     window.Peridot.CVS = {
-        init: function(config) {
+        new: function(config) {
             var cvs = this;
             cvs.constructor(config);
             return cvs;
